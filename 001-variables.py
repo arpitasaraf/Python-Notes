@@ -20,4 +20,9 @@ bn = False
 print(bl)
 print(bn)
 
+# None 
+username = None  # username has none
+
+print(username)
+
 
