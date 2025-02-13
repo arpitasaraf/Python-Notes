@@ -8,3 +8,6 @@ print(a)
 
 s = Fraction(6 ,4)
 print(s)
+
+from fractions import Fraction
+help(Fraction)
