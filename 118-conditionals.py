@@ -121,4 +121,11 @@ if (s == 'a' or s == 'e' or s == 'i' or s == 'o' or s == 'u' or s == 'A' or s ==
 else:
     print(s,'is a consonant')
 
-
+## 12) Create a program that checks if a number is positive. If true, print "Positive"; otherwise, print "Negative or Zero".
+n = int(input("enter a no. :"))
+if n >0:
+    print("positive")
+elif n < 0:
+    print("negative")
+else:
+    print("equal to zero ")
