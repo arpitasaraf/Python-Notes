@@ -129,3 +129,12 @@ elif n < 0:
     print("negative")
 else:
     print("equal to zero ")
+
+
+## 13) Check if a given year is a leap year or not. write the program
+year = int(input("enter a year : "))
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(f"{year} is a leap year")
+else:
+    print(f"{year} is not a leap year ")
+    
