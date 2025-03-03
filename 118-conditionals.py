@@ -71,9 +71,17 @@ elif n7 == n8:
 else:
     print(n8)
 
-## 5) WAP to check if a given no. is divisible by both 3 and 5?
-n10 = int(input("enter 1st no. :"))
-n11 = int(input("enter 2nd no. :"))
+# ## 5) WAP to check if a given no. is divisible by both 3 and 5?
+n10 = int(input("enter no. :")) 
+if n10 % 3 == 0:
+    if n10 % 5 == 0:
+        print("no. is divisible by 3 and 5.")
+    else:      
+        print("no. is divisible by 3 and NOT 5.")
+elif n10 % 5 == 0:
+    print("no. is NOT divisible by 3 and is divisible by 5.")
+else:
+    print("no. is NOT divisible by 3 and 5. ")
 
 ## 6) WAP to check if a no. lies between 10 and 50 (inclusive). 
 n = int(input("enter any no.:"))
