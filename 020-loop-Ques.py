@@ -68,4 +68,15 @@ print(num)
 for num in range(1,31):
     if num % 3 == 0:
         print(num)
+## 9) WAP a loop to display the elements of an array until the first negative number is encountered.
+print('---------------------------------------------')
+list1 = [23,45,76,22,-7,99,2,4]
+for i in list1:
+    if (i < 0):
+         break;
+    print(i)
 
+## 10) print a table of squares of no. from 1 ton 10 using a for loop
+print("--------------------")
+for i in range(1,11):
+        print(i ** 2)
