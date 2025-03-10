@@ -27,7 +27,25 @@ else:
 # print(strr)
 
 # 2) Check the no. is palindrome or not
-def check():
-    
+]def check(original_number):
+    q1 = L1(original_number)    
+    q1.reverse()    
+    reversed_number = ''.join(q1)
+    print("reverse_number")
+    print("original_number")
+
+    if original_number == reversed_number:
+        return True
+    else:
+            return False
+
+k = str(123456)
+print(k)
+
+if(k):
+    print("number is palindrome") 
+else:
+    print("number is not palindrome")
+print("---------------------------------------------------------------------------------------------")  
 
 
