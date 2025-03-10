@@ -61,7 +61,35 @@ print("-------------------------------------------------------------------------
 # 5) WAP to given an object product with properties name , category , price and discount do the following:
      # i) if the price is greater than 100 , update the discount to "15%".
      # ii) if the price is less than or equal to 100 , delet the discount property.
+student1 = {
+    "name":"jiya",
+    "category":"Electronic",
+    "price":100,
+    "discount":"15%"
+}
+# print(student)
+if student1["price"] > 100:
+    student1["discount"] = "15%"
+elif student1["price"] <= 100:
+    student1.pop("discount",None)
+print(student1)
+print("----------------------------------------------------------------------------------------------------------")
+
 
 # 6) WAP to given an object userProfile with properties name , email, and phonenumbers,performance the following:
      # i) if the email exists , update the phonenumber to "not Provide".
      # ii) if the email does not exist , delete the name property.
+d1 = {
+    "name":"mansi",
+    "email":"mansi2808@gmail.com",
+    "phonenumbers":258468972482,
+    "perfromance":False
+}
+# print(d)
+if d1["email"]:
+    d1["phonenumbers"] = "Not Provided"
+else:
+    del d1["email"]
+print(d1)
+print("---------------------------------------------------------------------------------------------")
+    
