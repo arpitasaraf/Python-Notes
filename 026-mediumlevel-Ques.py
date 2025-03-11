@@ -26,7 +26,7 @@ else:
 # strr = ''.join(lll)
 # print(strr)
 
-# 2) Check the no. is palindrome or not
+## 2) Check the no. is palindrome or not
 ]def check(original_number):
     q1 = L1(original_number)    
     q1.reverse()    
@@ -49,3 +49,28 @@ else:
 print("---------------------------------------------------------------------------------------------")  
 
 
+# 2) Check the no. is palindrome or not
+def check(original_number):
+    s = str(original_number)
+    print(s)
+    l1 = list(s)
+    l1.reverse()
+    print('l1' , l1)
+    #
+    reversed_number = ''.join(l1)
+    print(type(reversed_number))
+    reversed_number = int(reversed_number)
+    #
+    print('reversed no' , type(reversed_number))
+    print('original no', type(original_number))
+    #
+    if original_number == reversed_number:
+        return True
+    else:
+        return False
+q = check(102)
+print(q)
+if(q):
+    print("it is a palindrome")
+else:
+    print("it is not a palindrome")
