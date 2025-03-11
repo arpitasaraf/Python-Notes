@@ -29,12 +29,21 @@ def multiple_args(*args):
     pass 
 multiple_args(1,'hello',10000 , True , False)
 
-# Que 1 -  take unknown no of numbers as parameters and get sum of all numbers(parameters)
-# add(2,4,5,6,0,7,8,8)
-
+#
+def student(username , password , email):
+    print(student) 
+#
 def keyword_arguments(name,age):
     print(name)
     print(age)
 
 # keyword_arguments(39,'azhar') 
 keyword_arguments( age=33 , name = 'hamza') # keyword arguments 'age' , 'name' etc 
+
+# Que 1 -  take unknown no of numbers as parameters and get sum of all numbers(parameters)
+# add(2,4,5,6,0,7,8,8)
+
+# Que2 - username,password,email
+username = input("enter your name :") # their is 3 letter in the name
+password = input("enter a password :") # 8 no. of character 
+email = input("enter a email :") # @ not present it is not valid
