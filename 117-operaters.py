@@ -46,3 +46,24 @@ age = int(input("Enter your age : "))
 highschool = input("Enter highschool result : ")
 decision = age >= 18 and highschool == 'Pass'
 print(decision)
+
+#
+age = 5
+result = None
+if(age > 18 ):
+    result = True 
+else:
+    result = False 
+print("-------------------------------------")
+
+## ternary operator 
+result =  'Adult' if age > 18 else 'Minor' 
+print(result)
+print("--------------------------------------------")
+
+# smallest of two no.
+n1 = 32
+n2 = 88
+mark = n1 if n1 < n2 else n2
+print(mark)  
+print("-------------------------------------------------------")
