@@ -45,6 +45,12 @@ keyword_arguments( age=33 , name = 'hamza') # keyword arguments 'age' , 'name' e
 
 # Que 1 -  take unknown no of numbers as parameters and get sum of all numbers(parameters)
 # add(2,4,5,6,0,7,8,8)
+def sum_number(*args):
+    return sum(args)
+print(sum_number(4,8,12,16,20))
+print(sum_number())
+print(sum_number(10,20,30,40,50,60,70,80,90,100))
+print("-----------------------------------------------------------------------------------------------------------------------------")
 
 # Que2 - username,password,email
 username = input("enter your name :") # their is 3 letter in the name
