@@ -2,16 +2,19 @@
 def hello():
     print("hello")
 hello()
+print("–------------------------------")
 
 # single variable
 def hello(n1):
     print(n1)
 hello(26)
+print("---–----------------------------")
 
 # list
 def arr(list):
     print(list)
 arr([3,5,6,'h4lo'])
+print("----------------------------------")
 
 # 
 def arr(list):
