@@ -8,15 +8,6 @@ l = ['Apple','Mango','Banana','Cherry','Lichi','Apple','Mango','Banana','Cherry'
 # index = 4 , fruit = Lichi
 # index = 5 , fruit = Apple
 
-print('index = 0' ,'fruit = Apple')
-print('index = 1' , 'fruit = Mango')
-print('index = 2', 'fruit = Banana')
-print('index = 3' , 'fruit = Cherry')
-print('index = 4' , 'fruit = Lichi')
-print("------------------------------------------")
-
--------------------------------")
-
 for index , fruit in enumerate(l):
     print(index , fruit)
 
@@ -25,6 +16,11 @@ print("-------------------------------------------------------------------------
 for index , fruit in enumerate(l):
     print(f'index = {index}  fruit = {fruit}')
 
+index = 0 
+for value in l:
+    print(f'index = {index} , fruit = {value}')
+    index = index + 1
+   
 
     
     
