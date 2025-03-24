@@ -15,3 +15,16 @@ location = str(jsonData['data']['location']['street']['number']) + ' ' + str(jso
 # print(message)
 # print(name)
 print(location)
+
+gender = json['data']['gender']
+print(gender)
+email = json['data']['email']
+print(email)
+age =json['data']['dob']['age'] 
+print(age)
+username = json['data']['login']['username']
+print(username)
+phone= json['data']['phone']
+print(phone)
+
+
